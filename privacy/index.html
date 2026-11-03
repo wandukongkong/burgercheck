@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개인정보 처리방침 — 버거체크</title>
+<link rel="icon" href="../favicon.png">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet" integrity="sha384-ei/b2Mz3F5J8nqTvpKS89CkzDCuD7Cc+/F+OsaPUKItzHgLNKnGq3rjtYq/B7RnO" crossorigin="anonymous">
+<style>
+  :root { --ink:#3A2612; --pri:#5A3A1A; --accent:#C8643B; --line:rgba(90,58,26,.14); }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#FEF8E4; color:var(--ink); font:15.5px/1.75 Pretendard,-apple-system,'Apple SD Gothic Neo',sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:40px 20px 64px; }
+  .top { display:flex; justify-content:space-between; align-items:center; margin-bottom:28px; }
+  .top img { width:200px; }
+  .top a { font-size:14px; }
+  h1 { font-size:24px; color:var(--pri); margin:0 0 4px; letter-spacing:-.02em; }
+  .date { font-size:13.5px; opacity:.6; margin:0 0 24px; }
+  h2 { font-size:17px; color:var(--pri); margin:30px 0 6px; }
+  p, li { margin:0 0 8px; }
+  ul { padding-left:20px; margin:0 0 8px; }
+  table { border-collapse:collapse; width:100%; font-size:14px; margin:6px 0 10px; }
+  th, td { border-top:1px solid var(--line); padding:8px 6px; text-align:left; vertical-align:top; }
+  th { color:var(--pri); white-space:nowrap; }
+  a { color:var(--accent); }
+  hr { border:0; border-top:1px solid var(--line); margin:48px 0; }
+</style>
+</head>
+<body>
+<main>
+  <div class="top"><a href="../"><img src="../logo.svg" alt="버거체크"></a><a href="#en">English</a></div>
+
+  <h1>개인정보 처리방침</h1>
+  <p class="date">시행일 2026년 11월 3일</p>
+
+  <p>버거체크(이하 「앱」)는 회원 가입이 없고, 이름·이메일·전화번호 같은 개인을 알아볼 수 있는 정보를 받지 않습니다. 앱이 다루는 정보와 그 쓰임은 아래가 전부입니다.</p>
+
+  <h2>1. 다루는 정보와 쓰임</h2>
+  <table>
+    <tr><th>햄버거 사진</th><td>채점을 위해 줄인 사진을 채점 서버(Cloudflare, 미국 등 해외 데이터센터)로 보냅니다. 서버는 채점이 끝나면 사진을 버리며, <b>저장하지 않고 인공지능 학습에도 쓰지 않습니다.</b> 원본 사진은 이 기기 안에만 저장됩니다.</td></tr>
+    <tr><th>기기 무작위 ID</th><td>앱을 처음 켤 때 기기 안에서 만든 무작위 값입니다. 하루 채점 횟수를 세기 위해 서버에 이 ID와 그날 채점한 횟수를 기록합니다. 기기 고유 번호나 광고 ID가 아닙니다.</td></tr>
+    <tr><th>접속 IP(변환값)</th><td>무료 횟수 남용을 막기 위해, 접속한 IP 주소를 그날에만 쓰는 방식으로 되돌릴 수 없게 변환(해시)한 값을 기기 ID와 함께 그날 기록에 남깁니다. <b>IP 주소 원문은 저장하지 않습니다.</b></td></tr>
+    <tr><th>위치</th><td>허용한 경우에만, 찍은 장소별로 기록을 묶는 데 씁니다. <b>기기 안에만 저장하고 서버로 보내지 않습니다.</b> 허용하지 않아도 채점은 됩니다.</td></tr>
+    <tr><th>채점 기록</th><td>점수·한 줄 평·날짜·장소 이름은 기기 안에만 저장됩니다.</td></tr>
+  </table>
+
+  <h2>2. 함께 쓰는 서비스</h2>
+  <ul>
+    <li><b>Cloudflare</b> — 채점 서버와 인공지능 모델 실행. 사진은 채점에만 쓰고 남기지 않습니다.</li>
+    <li><b>Google AdMob</b> — 무료 사용자에게 광고를 보여 줍니다. 앱은 <b>맞춤형이 아닌 광고만</b> 요청합니다. 광고 제공과 부정 사용 방지를 위해 Google이 기기 정보를 처리할 수 있습니다(<a href="https://policies.google.com/technologies/ads">Google 광고 정책</a>).</li>
+    <li><b>RevenueCat</b> — 버거체크 프로 구독 상태를 확인합니다. 위의 기기 무작위 ID를 구독자 ID로 씁니다. 결제는 Apple App Store·Google Play가 처리하며 앱은 결제 정보를 보지 않습니다(<a href="https://www.revenuecat.com/privacy">RevenueCat 개인정보 처리방침</a>).</li>
+  </ul>
+
+  <h2>3. 보관과 삭제</h2>
+  <ul>
+    <li>앱 설정의 <b>「데이터 모두 삭제」</b>를 누르거나 앱을 지우면, 기기에 있던 사진과 기록이 모두 지워집니다.</li>
+    <li>서버에는 사진이 남지 않습니다. 날짜별 채점 횟수 기록에는 기기 무작위 ID와 IP 변환값 외의 정보가 없으며, 지우기를 원하면 아래 메일로 요청해 주세요.</li>
+  </ul>
+
+  <h2>4. 아동</h2>
+  <p>앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동의 정보를 일부러 받지 않습니다.</p>
+
+  <h2>5. 바뀔 때</h2>
+  <p>이 방침이 바뀌면 이 페이지에 시행일과 함께 올립니다.</p>
+
+  <h2>6. 문의</h2>
+  <p>개인정보 관련 문의·삭제 요청: <a href="mailto:burgercheck00@gmail.com">burgercheck00@gmail.com</a></p>
+
+  <hr>
+
+  <section id="en" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="date">Effective November 3, 2026</p>
+    <p>Burger Check (“the app”) has no accounts and does not ask for your name, email, phone number or any other information that identifies you. The list below is everything the app handles.</p>
+
+    <h2>1. What we handle and why</h2>
+    <table>
+      <tr><th>Burger photo</th><td>A resized copy is sent to our scoring server (Cloudflare, data centers that may be outside your country, including the US). The server discards it after scoring. <b>It is not stored and not used to train AI.</b> The original photo stays on your device.</td></tr>
+      <tr><th>Random device ID</th><td>A random value created on your device the first time you open the app. To enforce the daily limit, the server records this ID and how many photos it scored that day. It is not a hardware ID or advertising ID.</td></tr>
+      <tr><th>Hashed IP</th><td>To prevent abuse of free scoring, a one-way hash of your IP address (salted per day, so days cannot be linked) is stored with the device ID in that day’s record. <b>Your IP address itself is never stored.</b></td></tr>
+      <tr><th>Location</th><td>Only if you allow it, used to group your records by place. <b>It stays on your device and is never sent to our server.</b> Scoring works without it.</td></tr>
+      <tr><th>Score history</th><td>Scores, verdicts, dates and place names are stored only on your device.</td></tr>
+    </table>
+
+    <h2>2. Third-party services</h2>
+    <ul>
+      <li><b>Cloudflare</b> — runs the scoring server and AI model. Photos are used for scoring only and not kept.</li>
+      <li><b>Google AdMob</b> — shows ads to free users. The app requests <b>non-personalized ads only</b>. Google may process device information to serve ads and prevent fraud (<a href="https://policies.google.com/technologies/ads">Google ads policy</a>).</li>
+      <li><b>RevenueCat</b> — checks your Burger Check Pro subscription, using the random device ID as the subscriber ID. Payments are handled by the Apple App Store or Google Play; the app never sees payment details (<a href="https://www.revenuecat.com/privacy">RevenueCat privacy policy</a>).</li>
+    </ul>
+
+    <h2>3. Retention and deletion</h2>
+    <ul>
+      <li>Tap <b>“Delete all data”</b> in the app’s settings, or delete the app, to remove all photos and records from your device.</li>
+      <li>No photos remain on the server. The daily count records contain nothing but the random device ID and the hashed IP; email us to have them removed.</li>
+    </ul>
+
+    <h2>4. Children</h2>
+    <p>The app is not directed at children under 14 and does not knowingly collect their information.</p>
+
+    <h2>5. Changes</h2>
+    <p>Any change will be posted on this page with a new effective date.</p>
+
+    <h2>6. Contact</h2>
+    <p>Privacy questions and deletion requests: <a href="mailto:burgercheck00@gmail.com">burgercheck00@gmail.com</a></p>
+  </section>
+</main>
+</body>
+</html>
